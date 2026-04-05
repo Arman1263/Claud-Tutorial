@@ -1,0 +1,16 @@
+# Video 1
+
+Open claude code in vs code project folder 
+Run this comment to launch claude — claud
+We can run bash commands in claude code just press shift + 1 then run commands
+Basically it's recommended to use bash commands in claude code rather than opening a new terminal so claude can remember those commands in his history 
+It is a best practice to use git and GitHub while building projects
+We mostly work on running projects and rarely on scratch one's 
+
+Ask claude basics questions about the project like — 
+1. what this project do? 
+2. What tech stack used?
+3. Explain the project structure 
+
+/init - to initiate the project 
+/exit - to end the session 
