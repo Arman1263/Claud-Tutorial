@@ -1,33 +1,95 @@
 # Video 1
 
 Open claude code in vs code project folder 
+
 Run this comment to launch claude — claud
+
 We can run bash commands in claude code just press shift + 1 then run commands
+
 Basically it's recommended to use bash commands in claude code rather than opening a new terminal so claude can remember those commands in his history 
+
 It is a best practice to use git and GitHub while building projects
+
 We mostly work on running projects and rarely on scratch one's 
 
 Ask claude basics questions about the project like — 
+
 1. what this project do? 
 2. What tech stack used?
 3. Explain the project structure 
 
 /init - to initiate the project 
-/exit - to end the session 
 
+/exit - to end the session 
 
 # Video 2
 
 Use claude code with ollama — 
-ollama launch claude 
-Choose the model — use kwen 3.5 (best for coding)
-local models are in [others] and cloud models are on top — ollama launch claude
-I downloaded qwen2.5:3b using this command ollama pull qwen2.5:3b in my system
 
+ollama launch claude 
+
+Choose the model — use kwen 3.5 (best for coding)
+
+local models are in [others] and cloud models are on top — ollama launch claude
+
+I downloaded qwen2.5:3b using this command ollama pull qwen2.5:3b in my system
 
 # Video 3
 
-# Slash commands in claude
+## Slash commands in claude
+
 Slash commands are shortcuts you type inside claude code session, starting with /, that trigger a specific predefined action or workflow instantly — without writing out a full prompt.
+
 There are two types of slash commands — 1. Build in commands    —     2. Custom commands
+
 Slash commands used within any session
+
+## Session
+
+A session is one conversation with claude code — everything from where I run **claude to /exit.** It has a unique ID, captures the full message history, all file reads, all tools results, and current working directory. Sessions are saved automatically to **~/.claude/projets/** and can be resumed at any time, even after closing the terminal.
+
+List down all the conversations we did —   claude -r (and you can jump into that particular session)
+
+Resume - the session — /resume [run in any session] 
+
+One session — one task or one feature to keep context clear
+
+Name your session immediately — /rename [new name]
+
+Use /btw to quick question like general question and press space bar after that answer and question will gone
+
+To export the chat — /export file.md
+
+/logout and /login 
+
+## Models in Claude
+
+1. Opus — Most powerful and expensive model for complex programming tasks and takes more tokens so use it carefully
+2. Sonet —  Default  model and balanced model for day to day task 
+3. Haiku — For normal and repetitive tasks and provides speed 
+
+Use opus for planning and architecture phase and use sonet for implementation phase
+
+Switch through model — /models 
+
+Track usage — /usage and recharge usage — /usage-extra
+
+/stats — for tracking 
+
+ Generate all insights report and return as a html file — /insights 
+
+To change configuration /config
+
+/permissions — to utilize the permissions throughout sessions  
+
+To change the theme — /theme 
+
+To enable voice commands — /voice [to enable and disable]  [hold space bar while giving voice commands]
+
+# Video 4
+
+Use prompt from any chat bot rather than own prompt just go to chatgpt or claude to give our own prompt and he will refine that prompt and use it
+
+To make changes in specific code file use this syntax — @folder_name/file_name — @file_name 
+
+You can paste images in claude code
