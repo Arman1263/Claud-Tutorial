@@ -14,3 +14,13 @@ Ask claude basics questions about the project like —
 
 /init - to initiate the project 
 /exit - to end the session 
+
+
+# Video 2
+
+Use claude code with ollama — 
+ollama launch claude 
+Choose the model — use kwen 3.5 (best for coding)
+local models are in [others] and cloud models are on top — ollama launch claude
+I downloaded qwen2.5:3b using this command ollama pull qwen2.5:3b in my system
+
