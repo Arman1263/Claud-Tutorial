@@ -24,3 +24,10 @@ Choose the model — use kwen 3.5 (best for coding)
 local models are in [others] and cloud models are on top — ollama launch claude
 I downloaded qwen2.5:3b using this command ollama pull qwen2.5:3b in my system
 
+
+# Video 3
+
+# Slash commands in claude
+Slash commands are shortcuts you type inside claude code session, starting with /, that trigger a specific predefined action or workflow instantly — without writing out a full prompt.
+There are two types of slash commands — 1. Build in commands    —     2. Custom commands
+Slash commands used within any session
